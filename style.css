@@ -1,0 +1,47 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background: #fbeaff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 90%;
+}
+
+.stiker {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #ff5da2;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#yesBtn {
+  background-color: #ffaad4;
+  color: white;
+}
+
+#noBtn {
+  background-color: #ffc0cb;
+  color: white;
+  position: absolute;
+}
